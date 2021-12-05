@@ -1,5 +1,5 @@
 {
-  "name": "StylishText",
+  "name": "StylishTextGenBot",
   "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -8,8 +8,8 @@
   ],
   "logo": "https://telegra.ph/file/64a33f1fe14c0e26c39b1.jpg",
   "success_url": "https://telegram.dog/stylishtext_Nsbot",
-  "website": "https://github.com/Ns-Bots/Stylish-Text",
-  "repository": "https://github.com/Ns-Bots/Stylish-Text",
+  "website": "https://github.com/utkarsh212646/stylishtextgenbot",
+  "repository": "https://github.com/utkarsh212646/stylishtextgenbot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
