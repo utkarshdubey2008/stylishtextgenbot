@@ -18,8 +18,7 @@ async def start(c, m):
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 
 **👲 Maintained By:** {owner.mention(style='md')}
-"""My Dev https://t.me/adarsh2626
-
+"""
     # Buttons
     buttons = [
         [
