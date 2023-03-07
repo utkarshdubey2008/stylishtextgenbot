@@ -34,7 +34,7 @@
     "invite_link": {
         "description": "add you invite link here",
         "value": ""
-  },
+    },
   "addons": [
   ],
   "buildpacks": [{
