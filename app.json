@@ -31,6 +31,9 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     }
+    "invite_link": {
+        "description": "add you invite link here",
+        "value": ""
   },
   "addons": [
   ],
