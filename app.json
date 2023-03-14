@@ -1,47 +1,39 @@
+
 {
-  "name": "StylishTextGenBot",
-  "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
-  "keywords": [
-    "telegram",
-    "best",
-    "StylishText"
+  "name": "StylishTextFontBot",
+  "description": "A Telegram bot that generates stylish text and fonts for your messages",
+  "keywords": ["telegram", "bot", "text", "font", "stylish"],
+  "repository": "https://github.com/yourusername/stylishtextfontbot",
+  "logo": "https://telegra.ph/file/70bca7d24b0fb703404f9.jpg",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
   ],
-  "logo": "https://telegra.ph/file/64a33f1fe14c0e26c39b1.jpg",
-  "success_url": "https://telegram.dog/stylishtext_Nsbot",
-  "website": "https://github.com/utkarsh212646/stylishtextgenbot",
-  "repository": "https://github.com/utkarsh212646/stylishtextgenbot",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
   "env": {
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
-      "value": "ANYTHING"
-    },
     "BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
-      "value": ""
+      "description": "Telegram bot token",
+      "required": true
     },
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "OWNER_ID": {
-      "description": "give your telegram user id here",
-      "value": ""
+      "description": "Telegram API ID",
+      "required": true
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-  },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-1x"
+      "description": "Telegram API hash",
+      "required": true
     }
+  },
+  "scripts": {
+    "start": "python main.py"
   }
 }
+
