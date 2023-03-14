@@ -32,6 +32,11 @@
       "required": true
     }
   },
+  "session_name":{
+    "description": "enter a name here to save your session"
+    "Required": true
+    }
+   },
   "scripts": {
     "start": "python main.py"
   }
