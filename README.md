@@ -36,3 +36,6 @@ Contributions to the StylishTextFontBot are always welcome! If you have any sugg
 ## License
 
 StylishTextFontBot is licensed under the [MIT License](https://github.com/utkarshdubey2008/stylishtextgenbot/blob/main/LICENSE). Feel free to use,
+
+
+[![Idontnow](https://telegra.ph/file/70bca7d24b0fb703404f9.jpg)])
