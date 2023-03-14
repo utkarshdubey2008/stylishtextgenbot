@@ -1,35 +1,36 @@
-# Stylish Font Bot 🐿
-This is a telegram bot help you to get stylish fonts and text.
+# StylishTextFontBot
 
-<a href="https://telegram.dog/stylishtext_Nsbot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/utkarsh212646/stylishtextgenbot)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/allenspark10)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/alpha_bot_support)
+StylishTextFontBot is a Telegram bot that helps you to generate stylish fonts and text for your messages. This bot is built using the Telethon library and Python programming language.
 
-## Config Vars 🤖
-- `API_HASH:` Get this value from [my.telegram.org](https://my.telegram.org).
+## Features
 
-- `API_KEY:` Get this value from [my.telegram.org](https://my.telegram.org).
-
-- `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather)
-
-- `OWNER_ID:` Get your user id from [MissRose <img src="https://telegra.ph/file/0a36032bd2221c8d4209d.jpg" width="30" height="30">](https://telegram.dog/MissRose_bot)
-
-## Deploy to heroku 🗳
+- Generate stylish text and fonts for your messages
+- Easy to use and intuitive interface
+- Fast and reliable performance
+- Open source and free to use
+##Deploy to heroku 🗳
 Press the button Deploy to heroku and give the values for the config vars. 👇
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/utkarsh212646/stylishtextgenbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/utkarshdubey2008/stylishtextgenbot)
 
-## Tools Used 🧰
-- Language Used [<img src="https://telegra.ph/file/960ed8709acaf8c68b894.jpg" width="100" height="30">](https://www.python.org/)
-- Frame Work [<img src="https://telegra.ph/file/804f06d1590f7619a63ed.jpg" width="100" height="40">](https://github.com/pyrogram/pyrogram)
+## Setup and Installation
 
-## Dev Details 👤:
-<p align="middle">
-<img src="https://telegra.ph/file/2a3eab01d1201f40b3ffc.jpg" width="150" height="150"><br>
-<img src="https://badgen.net/badge/Name/UTKARSH/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<a href="https://telegram.dog/alpha_bot_support"><img src="https://img.shields.io/badge/Telegram-Link-blue.svg?logo=telegram"></a>
-<a href="https://github.com/utkarsh212646"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
-<a href="https://youtube.com/channel/UCq7mIbdbWUV-0qzIMjhYdpQ"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<p align="left">
-</p>
+To run the StylishTextFontBot, you will need to follow these steps:
+
+1. Clone the repository to your local machine
+2. Install the required dependencies using pip install -r requirements.txt
+3. Create a new Telegram bot using the BotFather and obtain the bot token
+4. Obtain your Telegram API ID and API hash from [my.telegram.org](https://my.telegram.org)
+5. Create a config.py file and add the following variables:
+   - BOT_TOKEN - Your Telegram bot token
+   - API_ID - Your Telegram API ID
+   - API_HASH - Your Telegram API hash
+6. Run the bot using python main.py
+
+## Contributing
+
+Contributions to the StylishTextFontBot are always welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
+
+## License
+
+StylishTextFontBot is licensed under the [MIT License](https://github.com/utkarshdubey2008/stylishtextgenbot/blob/main/LICENSE). Feel free to use,
