@@ -3,7 +3,7 @@
   "name": "StylishTextFontBot",
   "description": "A Telegram bot that generates stylish text and fonts for your messages",
   "keywords": ["telegram", "bot", "text", "font", "stylish"],
-  "repository": "https://github.com/yourusername/stylishtextfontbot",
+  "repository": "https://github.com/utkarshdubey2008/stylishtextgenbot",
   "logo": "https://telegra.ph/file/70bca7d24b0fb703404f9.jpg",
   "addons": [
     {
@@ -30,13 +30,11 @@
     "API_HASH": {
       "description": "Telegram API hash",
       "required": true
-    }
-  },
+    },
   "session_name":{
     "description": "enter a name here to save your session"
     "Required": true
-    }
-   },
+    },
   "scripts": {
     "start": "python main.py"
   }
