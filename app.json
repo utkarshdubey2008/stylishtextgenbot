@@ -31,7 +31,7 @@
       "description": "Telegram API hash",
       "required": true
     },
-  "session_name":{
+  "session_name": {
     "description": "enter a name here to save your session"
     "Required": true
     },
